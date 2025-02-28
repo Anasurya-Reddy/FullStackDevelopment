@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Program</title>
+    <script>
+        let n=prompt("Enter a number :");
+        let r=0;
+        let t=n;
+        while(t>0) {
+            r = (r*10)+(t%10);
+            t = Math.floor(t/10);
+        }
+        if(r==n) {
+            alert("Given number is a Palindrome");
+        } else {
+            alert("Given number is not a Palindrome");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
